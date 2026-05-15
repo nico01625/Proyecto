@@ -18,7 +18,7 @@
 
         <div class="logo">  
             <i class='bx bxs-store'></i>
-            <span>TRAZZIO</span>
+            <span>BASES DE DATOS</span>
         </div>
 
         <ul class="menu">

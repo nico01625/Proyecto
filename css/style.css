@@ -237,3 +237,23 @@ table {
         width: 200px;
     }
 }
+.logo i {
+    color: #8b5cf6;
+}
+
+.card i {
+    color: #8b5cf6;
+}
+
+.table-header button {
+    background: #8b5cf6;
+}
+
+    .table-header button:hover {
+        background: #7c3aed;
+    }
+
+.menu li a:hover,
+.menu .active a {
+    background: #2e1065;
+}
