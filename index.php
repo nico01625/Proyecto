@@ -12,10 +12,11 @@
 </head>
 <body>
 
-    <!-- SIDEBAR HOLAAAAAAAAAAAAAAAAAAAAAAA JUANJOOOOOOOOOOOOOOOOOOOOOOOOOOOO-->
+    <!-- SIDEBAR HOLAAAAAAAAAAAAAAAAAAAAAAA JUANJOOOOOOOOOOOOOOOOOOOOOOOOOOOO creo que ya se puede programar por github
+        -->
     <div class="sidebar">
 
-        <div class="logo">
+        <div class="logo">  
             <i class='bx bxs-store'></i>
             <span>TRAZZIO</span>
         </div>
