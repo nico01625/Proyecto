@@ -12,7 +12,7 @@
 </head>
 <body>
 
-    <!-- SIDEBAR -->
+    <!-- SIDEBAR HOLAAAAAAAAAAAAAAAAAAAAAAA JUANJOOOOOOOOOOOOOOOOOOOOOOOOOOOO-->
     <div class="sidebar">
 
         <div class="logo">
