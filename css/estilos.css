@@ -237,6 +237,7 @@ table {
         width: 200px;
     }
 }
+
 .logo i {
     color: #8b5cf6;
 }
@@ -256,4 +257,133 @@ table {
 .menu li a:hover,
 .menu .active a {
     background: #2e1065;
+}
+
+body {
+    background-color: #f4f6f9; /* Color de fondo del panel */
+    overflow-x: hidden;
+    margin: 0;
+}
+
+/* Estructura con panel oculto por defecto */
+/* ESTRUCTURA PRINCIPAL (WRAPPER) */
+#wrapper {
+    display: flex;
+    width: 100vw; /* ¡ESTA LÍNEA ES LA SOLUCIÓN! */
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* DISEÑO AZUL OSCURO PARA LA BARRA LATERAL */
+#sidebar {
+    width: 260px;
+    background-color: #0d1b2a; /* Azul oscuro profundo */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    transition: margin 0.3s ease;
+    margin-left: -260px; /* Oculto por defecto */
+    flex-shrink: 0;
+    z-index: 1000;
+}
+
+/* Clase para mostrar el menú cuando se hace clic en la hamburguesa */
+#wrapper.toggled #sidebar {
+    margin-left: 0;
+}
+
+#sidebar .sidebar-header {
+    padding: 20px;
+    background-color: #070e17; /* Azul aún más oscuro para la cabecera */
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.3rem;
+    border-bottom: 1px solid #1b263b;
+}
+
+#sidebar .list-group-item {
+    background-color: transparent;
+    color: #adb5bd;
+    border: none;
+    padding: 16px 20px;
+    transition: all 0.3s;
+    font-size: 1.05rem;
+}
+
+    /* DISEÑO MORADO PARA SELECCIÓN Y HOVER */
+    #sidebar .list-group-item:hover,
+    #sidebar .list-group-item.active {
+        background-color: #6f42c1; /* Morado Bootstrap */
+        color: white;
+        border-left: 5px solid #fff; /* Pequeña franja blanca a la izquierda */
+    }
+
+    #sidebar .list-group-item i {
+        margin-right: 12px;
+        width: 20px;
+        text-align: center;
+    }
+
+/* Área de Contenido Principal */
+#page-content-wrapper {
+    flex-grow: 1;
+    width: 100%; /* ESTA ES LA LÍNEA CLAVE */
+    height: 100vh;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    transition: width 0.3s ease;
+}
+
+/* Tarjetas de Resumen */
+.card-summary {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    transition: transform 0.2s;
+}
+
+    .card-summary:hover {
+        transform: translateY(-5px);
+    }
+
+.icon-box {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    color: white;
+}
+
+/* Ajuste de la barra superior */
+.navbar {
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.04);
+}
+
+/* Estilo del botón hamburguesa */
+#menu-toggle {
+    color: #0d1b2a;
+    border-color: #0d1b2a;
+}
+
+    #menu-toggle:hover {
+        background-color: #0d1b2a;
+        color: white;
+    }
+
+.icon-box {
+    width: 50px;
+    min-width: 50px; /* Obliga a que el ancho mínimo sea 50px */
+    height: 50px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    color: white;
+    flex-shrink: 0; /* MAGIA: Evita que el contenedor se aplaste o encoja */
 }
