@@ -3,6 +3,17 @@
   "WorkspaceRootPath": "C:\\xampp\\htdocs\\Proyecto\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ryzer\\Downloads\\TallerGrafos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\xampp\\htdocs\\Proyecto\\css\\estilos.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:css\\estilos.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\xampp\\htdocs\\Proyecto\\reportes\\selecionar.php||{3D2461EC-8045-4AA9-ABFB-812292AE795D}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:reportes\\selecionar.php||{3D2461EC-8045-4AA9-ABFB-812292AE795D}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\xampp\\htdocs\\Proyecto\\includes\\header.php||{3D2461EC-8045-4AA9-ABFB-812292AE795D}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:includes\\header.php||{3D2461EC-8045-4AA9-ABFB-812292AE795D}"
     }
@@ -19,15 +30,56 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "TallerGrafos.cs",
+              "DocumentMoniker": "C:\\Users\\ryzer\\Downloads\\TallerGrafos.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Users\\ryzer\\Downloads\\TallerGrafos.cs",
+              "ToolTip": "C:\\Users\\ryzer\\Downloads\\TallerGrafos.cs",
+              "RelativeToolTip": "..\\..\\..\\Users\\ryzer\\Downloads\\TallerGrafos.cs",
+              "ViewState": "AgIAAJsBAAAAAAAAAAAAAKUBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T03:18:06.218Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "estilos.css",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\Proyecto\\css\\estilos.css",
+              "RelativeDocumentMoniker": "css\\estilos.css",
+              "ToolTip": "C:\\xampp\\htdocs\\Proyecto\\css\\estilos.css",
+              "RelativeToolTip": "css\\estilos.css",
+              "ViewState": "AgIAAHwBAAAAAAAAAAAAAIUBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-05-21T16:53:05.606Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "selecionar.php",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\Proyecto\\reportes\\selecionar.php",
+              "RelativeDocumentMoniker": "reportes\\selecionar.php",
+              "ToolTip": "C:\\xampp\\htdocs\\Proyecto\\reportes\\selecionar.php",
+              "RelativeToolTip": "reportes\\selecionar.php",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAIwEMAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-05-21T16:44:51.261Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "header.php",
               "DocumentMoniker": "C:\\xampp\\htdocs\\Proyecto\\includes\\header.php",
               "RelativeDocumentMoniker": "includes\\header.php",
               "ToolTip": "C:\\xampp\\htdocs\\Proyecto\\includes\\header.php",
               "RelativeToolTip": "includes\\header.php",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAA0AAAAAAAAAA==",
-              "Icon": "89320d42-7831-4f47-839a-c227d3a60919.000001|",
-              "WhenOpened": "2026-05-20T00:18:25.125Z",
-              "EditorCaption": ""
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-05-20T00:18:25.125Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }

@@ -2,9 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\css",
-    "\\includes",
-    "\\producto_proveedor"
+    "\\producto_proveedor",
+    "\\reportes"
   ],
-  "SelectedNode": "\\includes\\header.php",
   "PreviewInSolutionExplorer": false
 }

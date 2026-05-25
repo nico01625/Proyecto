@@ -387,3 +387,8 @@ body {
     color: white;
     flex-shrink: 0; /* MAGIA: Evita que el contenedor se aplaste o encoja */
 }
+
+rels {
+    box-shadow: 0 4px 8px rgba #00000033 (0, 0, 0, 0.2) !important;
+    backdrop-filter: blur(4px);
+}
